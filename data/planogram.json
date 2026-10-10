@@ -1,0 +1,60 @@
+{
+  "store_id": "demo-store",
+  "image_width": 1280,
+  "image_height": 720,
+  "notes": "Demo placeholders. Replace with actual zone coordinates and product IDs for the target shelf.",
+  "zones": [
+    {
+      "zone_id": "A1",
+      "name": "Top shelf - left",
+      "bbox_norm": [
+        0.05,
+        0.08,
+        0.48,
+        0.32
+      ],
+      "expected_product_id": "SKU_A",
+      "target_facings": 4,
+      "min_facings": 2
+    },
+    {
+      "zone_id": "A2",
+      "name": "Top shelf - right",
+      "bbox_norm": [
+        0.52,
+        0.08,
+        0.95,
+        0.32
+      ],
+      "expected_product_id": "SKU_B",
+      "target_facings": 4,
+      "min_facings": 2
+    },
+    {
+      "zone_id": "B1",
+      "name": "Middle shelf - left",
+      "bbox_norm": [
+        0.05,
+        0.36,
+        0.48,
+        0.64
+      ],
+      "expected_product_id": "SKU_C",
+      "target_facings": 5,
+      "min_facings": 3
+    },
+    {
+      "zone_id": "B2",
+      "name": "Middle shelf - right",
+      "bbox_norm": [
+        0.52,
+        0.36,
+        0.95,
+        0.64
+      ],
+      "expected_product_id": "SKU_D",
+      "target_facings": 5,
+      "min_facings": 3
+    }
+  ]
+}
